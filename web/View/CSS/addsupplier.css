@@ -1,0 +1,16 @@
+.required-label::after {
+    content: '*';
+    color: red;
+    margin-left: 4px;
+}
+.btn-action {
+    margin-left: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
